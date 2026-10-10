@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" fill="none">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0" spreadMethod="repeat">
+      <stop offset="0" stop-color="#FFB86B"/><stop offset="0.33" stop-color="#FF6E7F"/>
+      <stop offset="0.66" stop-color="#C084FC"/><stop offset="1" stop-color="#FFB86B"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient><filter id="sb" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="28"/></filter><clipPath id="t0"><rect x="0.0" y="0" width="286.5" height="200" rx="20"/></clipPath><linearGradient id="a0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7DD3FC"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.85"/></linearGradient><clipPath id="t1"><rect x="304.5" y="0" width="286.5" height="200" rx="20"/></clipPath><linearGradient id="a1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFB86B"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.85"/></linearGradient><clipPath id="t2"><rect x="609.0" y="0" width="286.5" height="200" rx="20"/></clipPath><linearGradient id="a2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#86EFAC"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.85"/></linearGradient><clipPath id="t3"><rect x="913.5" y="0" width="286.5" height="200" rx="20"/></clipPath><linearGradient id="a3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C084FC"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.85"/></linearGradient></defs>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', Menlo, monospace; }
+    
+    .fadeup { animation: up .8s ease-out both; }
+    @keyframes up { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+    .shine { animation: shine 4.5s ease-in-out infinite; }
+    @keyframes shine { 0% { transform: translateX(0) rotate(18deg); } 40%,100% { transform: translateX(520px) rotate(18deg); } }
+    
+  </style>
+  
+  <g class="fadeup" style="animation-delay:0.00s">
+    <g clip-path="url(#t0)">
+      <rect x="0.0" y="0" width="286.5" height="200" fill="#13121F"/>
+      <circle cx="256.5" cy="30" r="80" fill="#7DD3FC" opacity="0.32" filter="url(#sb)"/>
+      <rect class="shine" style="animation-delay:0.0s" x="-120.0" y="-40" width="36" height="280" fill="#FFFFFF" opacity="0.05" transform="rotate(18 0.0 0)"/>
+    </g>
+    <rect x="0.5" y="0.5" width="285.5" height="199" rx="20" stroke="#2B2940"/>
+    <rect x="24.0" y="26" width="34" height="4" rx="2" fill="#7DD3FC"/>
+    <text x="24.0" y="98" font-size="44" font-weight="800" fill="url(#a0)" letter-spacing="-1">Runner-up</text>
+    <text x="24.0" y="138" font-size="17" font-weight="700" fill="#F5F1EA">HackOWASP Hackathon</text>
+    <text x="24.0" y="164" font-size="13.5" fill="#958FA9">Among 100+ teams · Apr 2025</text>
+  </g>
+  <g class="fadeup" style="animation-delay:0.15s">
+    <g clip-path="url(#t1)">
+      <rect x="304.5" y="0" width="286.5" height="200" fill="#13121F"/>
+      <circle cx="561.0" cy="30" r="80" fill="#FFB86B" opacity="0.32" filter="url(#sb)"/>
+      <rect class="shine" style="animation-delay:0.6s" x="184.5" y="-40" width="36" height="280" fill="#FFFFFF" opacity="0.05" transform="rotate(18 304.5 0)"/>
+    </g>
+    <rect x="305.0" y="0.5" width="285.5" height="199" rx="20" stroke="#2B2940"/>
+    <rect x="328.5" y="26" width="34" height="4" rx="2" fill="#FFB86B"/>
+    <text x="328.5" y="98" font-size="44" font-weight="800" fill="url(#a1)" letter-spacing="-1">Top 30</text>
+    <text x="328.5" y="138" font-size="17" font-weight="700" fill="#F5F1EA">Amex Campus Challenge</text>
+    <text x="328.5" y="164" font-size="13.5" fill="#958FA9">Nationwide · Jul 2025</text>
+  </g>
+  <g class="fadeup" style="animation-delay:0.30s">
+    <g clip-path="url(#t2)">
+      <rect x="609.0" y="0" width="286.5" height="200" fill="#13121F"/>
+      <circle cx="865.5" cy="30" r="80" fill="#86EFAC" opacity="0.32" filter="url(#sb)"/>
+      <rect class="shine" style="animation-delay:1.2s" x="489.0" y="-40" width="36" height="280" fill="#FFFFFF" opacity="0.05" transform="rotate(18 609.0 0)"/>
+    </g>
+    <rect x="609.5" y="0.5" width="285.5" height="199" rx="20" stroke="#2B2940"/>
+    <rect x="633.0" y="26" width="34" height="4" rx="2" fill="#86EFAC"/>
+    <text x="633.0" y="98" font-size="44" font-weight="800" fill="url(#a2)" letter-spacing="-1">Patent</text>
+    <text x="633.0" y="138" font-size="17" font-weight="700" fill="#F5F1EA">Published in India</text>
+    <text x="633.0" y="164" font-size="13.5" fill="#958FA9">Speech-aware voting system</text>
+  </g>
+  <g class="fadeup" style="animation-delay:0.45s">
+    <g clip-path="url(#t3)">
+      <rect x="913.5" y="0" width="286.5" height="200" fill="#13121F"/>
+      <circle cx="1170.0" cy="30" r="80" fill="#C084FC" opacity="0.32" filter="url(#sb)"/>
+      <rect class="shine" style="animation-delay:1.8s" x="793.5" y="-40" width="36" height="280" fill="#FFFFFF" opacity="0.05" transform="rotate(18 913.5 0)"/>
+    </g>
+    <rect x="914.0" y="0.5" width="285.5" height="199" rx="20" stroke="#2B2940"/>
+    <rect x="937.5" y="26" width="34" height="4" rx="2" fill="#C084FC"/>
+    <text x="937.5" y="98" font-size="44" font-weight="800" fill="url(#a3)" letter-spacing="-1">8.79</text>
+    <text x="937.5" y="138" font-size="17" font-weight="700" fill="#F5F1EA">CGPA</text>
+    <text x="937.5" y="164" font-size="13.5" fill="#958FA9">Thapar Institute</text>
+  </g>
+</svg>

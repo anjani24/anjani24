@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" fill="none">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0" spreadMethod="repeat">
+      <stop offset="0" stop-color="#FFB86B"/><stop offset="0.33" stop-color="#FF6E7F"/>
+      <stop offset="0.66" stop-color="#C084FC"/><stop offset="1" stop-color="#FFB86B"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient><clipPath id="card"><rect width="1200" height="250" rx="26"/></clipPath>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter></defs>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', Menlo, monospace; }
+    
+    .b1 { animation: f1 12s ease-in-out infinite; } .b2 { animation: f2 14s ease-in-out infinite; }
+    @keyframes f1 { 0%,100% { transform: translate(0,0); } 50% { transform: translate(200px,30px); } }
+    @keyframes f2 { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-200px,-20px); } }
+    .arrow { animation: nudge 1.4s ease-in-out infinite; }
+    @keyframes nudge { 50% { transform: translateX(8px); } }
+    
+  </style>
+  
+  <g clip-path="url(#card)">
+    <rect width="1200" height="250" fill="#0B0B14"/>
+    <g filter="url(#blur)" opacity="0.5">
+      <circle class="b1" cx="250" cy="200" r="160" fill="#C084FC"/>
+      <circle class="b2" cx="950" cy="60" r="160" fill="#FFB86B"/>
+    </g>
+  </g>
+  <rect x="1.5" y="1.5" width="1197" height="247" rx="25" stroke="url(#g)" stroke-width="3"/>
+  <text x="600.0" y="84" font-size="40" font-weight="800" fill="#F5F1EA" text-anchor="middle" letter-spacing="-0.5">Let's build something together</text>
+  <text x="600.0" y="120" font-size="17" fill="#D3CCDB" text-anchor="middle">Open to SDE · ML · Data Science internships and full-time roles</text>
+  <g>
+    <rect x="390.0" y="150" width="420" height="56" rx="28" fill="url(#g)"/>
+    <text class="mono" x="588.0" y="184" font-size="17" font-weight="700" fill="#0B0B14" text-anchor="middle">aagarwal2_be23@thapar.edu</text>
+    <g class="arrow"><path d="M768.0 178 h18 m-7 -7 l7 7 l-7 7" stroke="#0B0B14" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+  </g>
+
+</svg>

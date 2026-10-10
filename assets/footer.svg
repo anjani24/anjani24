@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110" fill="none">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0" spreadMethod="repeat">
+      <stop offset="0" stop-color="#FFB86B"/><stop offset="0.33" stop-color="#FF6E7F"/>
+      <stop offset="0.66" stop-color="#C084FC"/><stop offset="1" stop-color="#FFB86B"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient></defs>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', Menlo, monospace; }
+    
+  </style>
+  
+  <g opacity="0.35"><path d="M0 50 Q75.0 66 150 50 Q225.0 34 300 50 Q375.0 66 450 50 Q525.0 34 600 50 Q675.0 66 750 50 Q825.0 34 900 50 Q975.0 66 1050 50 Q1125.0 34 1200 50 Q1275.0 66 1350 50 Q1425.0 34 1500 50 Q1575.0 66 1650 50 Q1725.0 34 1800 50 Q1875.0 66 1950 50 Q2025.0 34 2100 50 Q2175.0 66 2250 50 Q2325.0 34 2400 50 V110 H0 Z" fill="url(#g)">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-300 0" dur="7s" repeatCount="indefinite"/></path></g>
+  <g opacity="0.6"><path d="M0 66 Q75.0 54 150 66 Q225.0 78 300 66 Q375.0 54 450 66 Q525.0 78 600 66 Q675.0 54 750 66 Q825.0 78 900 66 Q975.0 54 1050 66 Q1125.0 78 1200 66 Q1275.0 54 1350 66 Q1425.0 78 1500 66 Q1575.0 54 1650 66 Q1725.0 78 1800 66 Q1875.0 54 1950 66 Q2025.0 78 2100 66 Q2175.0 54 2250 66 Q2325.0 78 2400 66 V110 H0 Z" fill="url(#g)">
+    <animateTransform attributeName="transform" type="translate" from="-300 0" to="0 0" dur="5s" repeatCount="indefinite"/></path></g>
+  <path d="M0 82 Q75.0 90 150 82 Q225.0 74 300 82 Q375.0 90 450 82 Q525.0 74 600 82 Q675.0 90 750 82 Q825.0 74 900 82 Q975.0 90 1050 82 Q1125.0 74 1200 82 Q1275.0 90 1350 82 Q1425.0 74 1500 82 Q1575.0 90 1650 82 Q1725.0 74 1800 82 Q1875.0 90 1950 82 Q2025.0 74 2100 82 Q2175.0 90 2250 82 Q2325.0 74 2400 82 V110 H0 Z" fill="url(#g)">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-300 0" dur="4s" repeatCount="indefinite"/></path>
+
+</svg>
