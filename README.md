@@ -82,10 +82,6 @@
   <img height="175" src="https://streak-stats.demolab.com?user=anjani24&background=13121F&border=2B2940&stroke=2B2940&ring=FF6E7F&fire=FFB86B&currStreakNum=F5F1EA&sideNums=F5F1EA&currStreakLabel=FFB86B&sideLabels=958FA9&dates=958FA9&border_radius=20" alt="GitHub streak"/>
 </p>
 
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=anjani24&bg_color=13121F&color=D3CCDB&title_color=F5F1EA&line=FF6E7F&point=FFB86B&area_color=C084FC&area=true&hide_border=true&radius=20&custom_title=Contribution%20activity" alt="Contribution activity graph"/>
-</p>
-
 <!-- Contribution snake: appears after the "Generate snake" workflow runs once (Actions tab → Generate snake → Run workflow) -->
 <p align="center">
   <picture>
