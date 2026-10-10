@@ -1,136 +1,287 @@
-<!--
-  Profile README for https://github.com/anjani24
-  To publish: create a public repository named exactly `anjani24` and add this file as README.md.
-  Replace the LinkedIn URL below if your profile uses a different handle, and add email only if you want it public.
--->
+<!-- ========================= HEADER ========================= -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F5AF0,50:2CB67D,100:00B4D8&height=210&section=header&text=Anjani%20Agarwal&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=ML%20Engineer%20%E2%80%A2%20GenAI%20Builder%20%E2%80%A2%20Full-Stack%20Developer&descAlignY=58&descSize=18" width="100%" alt="Anjani Agarwal header"/>
+</p>
 
-<div align="center">
+<p align="center">
+  <a href="https://github.com/anjani24">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2CB67D&center=true&vCenter=true&width=640&lines=Hi+there%2C+I'm+Anjani+%F0%9F%91%8B;Computer+Engineering+%40+Thapar+Institute;Building+RAG+systems+%26+GenAI+products;ML+%E2%80%A2+Deep+Learning+%E2%80%A2+Full-Stack;Open+to+Internships+%26+Full-Time+Roles+%F0%9F%9A%80" alt="Typing SVG"/>
+  </a>
+</p>
 
-# Hi, I'm Anjani 👋
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-Open%20to%20Work-2CB67D?style=for-the-badge&logo=handshake&logoColor=white" alt="Open to work"/>
+  <img src="https://img.shields.io/badge/Seeking-Internships%20%7C%20Full--Time-7F5AF0?style=for-the-badge&logo=rocket&logoColor=white" alt="Seeking"/>
+  <img src="https://komarev.com/ghpvc/?username=anjani24&style=for-the-badge&color=00B4D8&label=PROFILE+VIEWS" alt="Profile views"/>
+</p>
 
-### Computer Engineering | Applied AI & Machine Learning | Software Development
+<p align="center">
+  <a href="mailto:aagarwal2_be23@thapar.edu"><img src="https://img.shields.io/badge/Email-Let's%20Talk-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://github.com/anjani24"><img src="https://img.shields.io/badge/GitHub-anjani24-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <!-- Add LinkedIn here:
+  <a href="https://www.linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  -->
+</p>
 
-I enjoy turning ideas into useful software — from **ML-powered recommendation systems** and **retrieval-augmented generation** to **accessible applications** and full-stack products.
+---
 
-[![GitHub](https://img.shields.io/badge/GitHub-anjani24-181717?style=for-the-badge&logo=github)](https://github.com/anjani24)
-[![Projects](https://img.shields.io/badge/Explore-Projects-2563eb?style=for-the-badge&logo=github)](https://github.com/anjani24?tab=repositories)
+## 🧑‍💻 About Me
 
-</div>
+<img align="right" width="380" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anjani24&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&langs_count=6" alt="Top languages"/>
+
+```python
+class Anjani:
+    def __init__(self):
+        self.education  = "B.E. Computer Engineering @ Thapar Institute (CGPA 8.79)"
+        self.focus      = ["Machine Learning", "GenAI & RAG", "Deep Learning", "Full-Stack"]
+        self.research   = "Spiking Neural Networks for sEMG gesture recognition @ MNIT Jaipur"
+        self.patent     = "Speech-aware voting for dysarthric users (Indian Patent Office)"
+        self.looking_for = ["SDE / ML / Data Science Internships", "Full-Time Roles"]
+
+    def fun_fact(self):
+        return "I turn YouTube videos into searchable knowledge bases 🎥➡️📚"
+```
+
+- 🔭 Currently building **AI-powered products** with LLMs, hybrid retrieval and modern web stacks
+- 🌱 Currently building an **AI Task Manager backend** with FastAPI, PostgreSQL, JWT auth and refresh-token rotation
+- 🏆 **Runner-up**, HackOWASP (100+ teams) · **Top 30**, Amex Campus Challenge 2025
+- 📜 **Patent published** at the Indian Patent Office
+- 💬 Ask me about **RAG, LightGBM, SNNs, or Next.js + Supabase**
+
+<br clear="right"/>
+
+---
+
+## 🛠️ Tech Stack
+
+<details open>
+<summary><b>💻 Languages</b></summary>
+<br/>
+<p align="center">
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,cpp,c,ts,js,html,css&perline=7" alt="Languages"/></a>
+  <br/>
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
+</p>
+</details>
+
+<details open>
+<summary><b>🤖 Machine Learning, Deep Learning & GenAI</b></summary>
+<br/>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=pytorch,sklearn,tensorflow&perline=3" alt="ML"/>
+  <br/><br/>
+  <img src="https://img.shields.io/badge/snnTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LightGBM-02569B?style=flat-square&logo=microsoft&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SHAP-FF0051?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Wav2Vec2-FF9D00?style=flat-square&logo=huggingface&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ChromaDB-FF6F61?style=flat-square&logo=databricks&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Sentence--Transformers-00A67E?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/BM25%20%2B%20RRF-6E40C9?style=flat-square&logo=elastic&logoColor=white"/>
+</p>
+</details>
+
+<details open>
+<summary><b>⚡ Backend & APIs <i>(AI Task Manager stack)</i></b></summary>
+<br/>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=fastapi,python,postgres&perline=3" alt="Backend stack"/>
+  <br/><br/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Alembic-6BA539?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Argon2-5A29E4?style=flat-square&logo=letsencrypt&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white"/>
+  <img src="https://img.shields.io/badge/REST%20APIs-FF6C37?style=flat-square&logo=postman&logoColor=white"/>
+</p>
+</details>
+
+<details open>
+<summary><b>☁️ DevOps, Databases & Tools</b></summary>
+<br/>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=docker,aws,githubactions,postgres,git,github,vscode,postman,vercel&perline=9" alt="Tools"/>
+  <br/><br/>
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white"/>
+</p>
+</details>
+
+<details>
+<summary><b>📚 CS Fundamentals</b></summary>
+<br/>
+<p align="center">
+  <img src="https://img.shields.io/badge/DSA-7F5AF0?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/OOP-2CB67D?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/DBMS-00B4D8?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Operating%20Systems-EF476F?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Computer%20Networks-FFB703?style=for-the-badge&logoColor=black"/>
+</p>
+</details>
+
+---
+
+## 💼 Experience
+
+<details open>
+<summary><b>🔬 Research Intern — Multi-Gesture Recognition using sEMG</b> · MNIT Jaipur · <i>May 2025 – Jul 2025</i></summary>
+<br/>
+
+- Built a **multi-gesture recognition system for stroke rehabilitation** from multi-channel sEMG signals using FFT-based spectral analysis and statistical features
+- Designed **Leaky Integrate-and-Fire Spiking Neural Networks** trained with surrogate-gradient backprop in **snnTorch** → **85%** accuracy
+- Engineered a **hybrid Feature-SNN architecture** → peak **95.25%** test accuracy
+- Automated evaluation with confusion matrices and class-wise robustness analysis
+
+🔗 [View project](https://github.com/anjani24/Multi-Gesture-Recognition-for-Stroke-Rehabilitation-Using-sEMG-Signals)
+</details>
 
 ---
 
 ## 🚀 Featured Projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/anjani24/youtube-rag">YouTube RAG</a></h3>
-      A transcript-grounded video knowledge assistant with hybrid retrieval, BM25, vector search, reranking, and timestamped citations. Also supports summaries, cross-video Q&A, study notes, and quizzes.
-      <br/><br/>
-      <sub><b>Python · RAG · ChromaDB · Sentence Transformers · LLMs</b></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/anjani24/Offer-Personalization">Offer Personalization Engine</a></h3>
-      An ML workflow for modeling customer interest and offer redemption, ranking candidate offers, and explaining predictions with SHAP.
-      <br/><br/>
-      <sub><b>Python · LightGBM · scikit-learn · SHAP · pandas</b></sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/anjani24/SwapSync">SwapSync</a></h3>
-      A hostel room-swapping platform built around listings, discovery, and coordinated swap workflows.
-      <br/><br/>
-      <sub><b>Web Development · Database Design · Product Thinking</b></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/anjani24/Fake-news-Detector">Fake News Detector</a></h3>
-      An NLP and machine-learning project exploring text preprocessing and classification for fake-news detection.
-      <br/><br/>
-      <sub><b>Python · NLP · scikit-learn · Machine Learning</b></sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/anjani24/speech-Aware-Voting-Platform-for-Dysarthric-Users">Speech-Aware Voting Platform</a></h3>
-      An accessibility-focused voting research prototype exploring voice-assisted interaction and task-specific dysarthric digit recognition.
-      <br/><br/>
-      <sub><b>React · TypeScript · Supabase · Speech AI · Accessibility</b></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/anjani24/Multi-Gesture-Recognition-for-Stroke-Rehabilitation-Using-sEMG-Signals">sEMG Gesture Recognition</a></h3>
-      A machine-learning project focused on recognizing hand gestures from surface electromyography signals for stroke-rehabilitation research.
-      <br/><br/>
-      <sub><b>Machine Learning · Signal Processing · Healthcare AI</b></sub>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/anjani24/youtube-rag"><img src="https://github-readme-stats.vercel.app/api/pin/?username=anjani24&repo=youtube-rag&theme=tokyonight&hide_border=true&bg_color=00000000" alt="YouTube RAG"/></a>
+  <a href="https://github.com/anjani24/speech-Aware-Voting-Platform-for-Dysarthric-Users"><img src="https://github-readme-stats.vercel.app/api/pin/?username=anjani24&repo=speech-Aware-Voting-Platform-for-Dysarthric-Users&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Speech-aware voting"/></a>
+  <a href="https://github.com/anjani24/Offer-Personalization"><img src="https://github-readme-stats.vercel.app/api/pin/?username=anjani24&repo=Offer-Personalization&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Offer Personalization"/></a>
+  <a href="https://github.com/anjani24/SwapSync"><img src="https://github-readme-stats.vercel.app/api/pin/?username=anjani24&repo=SwapSync&theme=tokyonight&hide_border=true&bg_color=00000000" alt="SwapSync"/></a>
+</p>
+
+<details open>
+<summary><b>🧠 AI Task Manager Backend</b> — secure task API, AI-agent ready · <img src="https://img.shields.io/badge/🚧-In%20Progress-FFB703?style=flat-square"/></summary>
+<br/>
+
+**Stack:** Python · FastAPI · PostgreSQL · SQLAlchemy · Alembic · JWT · Argon2 · Pytest
+
+- **REST API** with full task CRUD, **pagination and sorting**, built for future AI agent integration
+- Relational data model with **SQLAlchemy** (primary/foreign keys, relationships) and **Alembic** migrations that safely handle existing data
+- **JWT access + refresh tokens** with **Argon2** password hashing, plus user-level authorization so each user only sees their own tasks
+- **Refresh-token rotation with reuse detection:**
+  - every login starts a token `family_id`
+  - each refresh revokes the old token and links it to its replacement via `replaced_by_id`
+  - replaying a revoked token **revokes every active token in that family**, which shuts down stolen sessions
+- Covered by automated **Pytest** suites, including the token rotation and reuse-detection tests
+
+```mermaid
+flowchart LR
+    A[Login] -->|new family_id| B[Refresh token #1]
+    B -->|refresh| C[Refresh token #2]
+    B -. replaced_by_id .-> C
+    B -->|⚠️ reused after revoke| D[Revoke entire family 🔒]
+```
+</details>
+
+<details>
+<summary><b>🎥 YouTube Knowledge Intelligence</b> — RAG over YouTube videos</summary>
+<br/>
+
+**Stack:** Python · ChromaDB · OpenAI · BM25 · sentence-transformers
+
+- End-to-end **RAG system** with 6 capabilities: Q&A, summarization, topic search, multi-video comparison, quiz generation and **timestamp-backed citations**
+- **Hybrid retrieval** (semantic + BM25 fused via RRF) with cross-encoder reranking — beats semantic-only and keyword-only search
+- Persistent ChromaDB knowledge base and a RAG evaluation framework with swappable LLM / embedding / vector-store components
+</details>
+
+<details>
+<summary><b>🗳️ Speech-Aware Voting Platform</b> — 📜 Patent Published</summary>
+<br/>
+
+**Stack:** TypeScript · React · PostgreSQL · Docker · AWS · GitHub Actions · Wav2Vec2
+
+- Speech-to-vote pipeline for **dysarthric speech** by fine-tuning Wav2Vec2 → **87%** recognition accuracy
+- Productionized with Docker + AWS, **CI/CD via GitHub Actions**, health checks, structured logging and monitoring
+- Accessible React UI with real-time transcription and encrypted, auditable vote records
+</details>
+
+<details>
+<summary><b>💳 Offer Personalization Engine</b> — credit-card offer recommendations</summary>
+<br/>
+
+**Stack:** Python · Pandas · LightGBM · scikit-learn · SHAP
+
+- Modeled **10,000+ customers** across 70+ demographic and offer attributes
+- Gradient-boosted model with **ROC-AUC 0.89** and a **Top-3 ranking** recommender per customer
+- SHAP-based explainability for every recommendation
+</details>
+
+<details>
+<summary><b>🏠 SwapSync</b> — hostel room swapping platform · <a href="https://swap-sync-theta.vercel.app/">Live ↗</a></summary>
+<br/>
+
+**Stack:** Next.js · TypeScript · Supabase
+
+- Room discovery, reverse matching and **three-way circular swaps**
+</details>
+
+<details>
+<summary><b>📰 More projects</b></summary>
+<br/>
+
+| Project | What it does | Stack |
+|---|---|---|
+| [Fake News Detector](https://github.com/anjani24/Fake-news-Detector) | NLP classifier, **90.31%** test accuracy | TF-IDF · LR · SVM · RF |
+| [Learning PDF using GAN](https://github.com/anjani24/Learning-PDF-using-GAN) | Learns probability distributions with GANs | PyTorch |
+| [TOPSIS Package](https://github.com/anjani24/Topsis-102303480) · [Live ↗](https://topsis-102303480.vercel.app) | Multi-criteria decision making tool | Python |
+| [Mashup](https://github.com/anjani24/Mashup) · [Live ↗](https://mashup-five.vercel.app) | Audio mashup generator web app | Python |
+| [TOPSIS on Summarization Models](https://github.com/anjani24/Topsis-on-pretrained-model-for-Text-Summerization) | Ranks pretrained summarizers | Transformers |
+| [Deep Learning](https://github.com/anjani24/DeepLearning) | Deep learning experiments | PyTorch |
+
+</details>
 
 ---
 
-## 🧰 Technologies I Work With
+## 🏆 Achievements
 
-<div align="center">
-
-**Languages**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-**AI / ML & Data**  
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![LightGBM](https://img.shields.io/badge/LightGBM-2E8B57?style=flat-square)
-![Pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![SHAP](https://img.shields.io/badge/SHAP-Explainability-6A5ACD?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-LLM%20Applications-7C3AED?style=flat-square)
-
-**Development & Data Stores**  
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector%20Database-5B4BDB?style=flat-square)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/🥈%20Runner--up-HackOWASP%20(100%2B%20teams)-C0C0C0?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🏅%20Top%2030-Amex%20Campus%20Challenge%202025-006FCF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/📜%20Patent-Published%20(India)-FFB703?style=for-the-badge"/>
+</p>
 
 ---
 
-## 🔍 What I'm Interested In
+## 📊 GitHub Stats
 
-- Building practical AI/ML systems with thoughtful evaluation and explainability.
-- Designing retrieval systems that connect LLM responses to source evidence.
-- Developing dependable software, APIs, and full-stack applications.
-- Applying technology to accessibility and real-world user problems.
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=anjani24&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&include_all_commits=true&count_private=true" alt="Stats"/>
+  <img height="170" src="https://streak-stats.demolab.com?user=anjani24&theme=tokyonight&hide_border=true&background=00000000" alt="Streak"/>
+</p>
 
-## 📊 GitHub at a Glance
+<p align="center">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=anjani24&theme=tokyo-night&hide_border=true&bg_color=00000000&area=true" alt="Activity graph"/>
+</p>
 
-<div align="center">
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=anjani24&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=6" alt="Trophies"/>
+</p>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=anjani24&show_icons=true&hide_border=true&rank_icon=github)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=anjani24&layout=compact&hide_border=true&langs_count=8)
-
-![Contribution Streak](https://streak-stats.demolab.com?user=anjani24&hide_border=true)
-
-</div>
-
-<sub>These cards are served by third-party services and may occasionally be unavailable or rate-limited.</sub>
+<!-- Contribution snake: appears after the snake workflow runs once (Actions tab → "Generate snake" → Run workflow) -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anjani24/anjani24/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anjani24/anjani24/output/github-snake.svg"/>
+    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/anjani24/anjani24/output/github-snake.svg"/>
+  </picture>
+</p>
 
 ---
 
-## 🤝 Connect
+## 🤝 Let's Work Together
 
-I'm interested in collaborating on useful software, applied AI, and open-source projects.
+<p align="center">
+  <b>I'm actively looking for Internship & Full-Time opportunities in<br/>Machine Learning · GenAI · Data Science · Software Engineering</b>
+  <br/><br/>
+  <a href="mailto:aagarwal2_be23@thapar.edu">
+    <img src="https://img.shields.io/badge/📩%20Hire%20Me-Get%20in%20touch-7F5AF0?style=for-the-badge" alt="Hire me"/>
+  </a>
+</p>
 
-- **GitHub:** [@anjani24](https://github.com/anjani24)
-- **Projects:** [Browse my repositories](https://github.com/anjani24?tab=repositories)
-
-<!-- Add your LinkedIn and a public contact email here when ready. -->
-
-<div align="center">
-  <sub>Thanks for stopping by — have a great day! ✨</sub>
-</div>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00B4D8,50:2CB67D,100:7F5AF0&height=120&section=footer&animation=twinkling" width="100%" alt="footer"/>
+</p>
