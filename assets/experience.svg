@@ -1,12 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" fill="none">
   <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0" spreadMethod="repeat">
-      <stop offset="0" stop-color="#FFB86B"/><stop offset="0.33" stop-color="#FF6E7F"/>
-      <stop offset="0.66" stop-color="#C084FC"/><stop offset="1" stop-color="#FFB86B"/>
-      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1 0" dur="6s" repeatCount="indefinite"/>
+      <stop offset="0" stop-color="#7AA2F7"/><stop offset="1" stop-color="#7AA2F7"/>
     </linearGradient><clipPath id="card"><rect width="1200" height="330" rx="22"/></clipPath>
     <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="50"/></filter>
-    <linearGradient id="bar1" x1="0" x2="1"><stop offset="0" stop-color="#C084FC"/><stop offset="1" stop-color="#FFB86B"/></linearGradient>
-    <linearGradient id="bar2" x1="0" x2="1"><stop offset="0" stop-color="#FF6E7F"/><stop offset="1" stop-color="#FFB86B"/></linearGradient></defs>
+    <linearGradient id="bar1" x1="0" x2="1"><stop offset="0" stop-color="#7AA2F7"/><stop offset="1" stop-color="#7AA2F7"/></linearGradient>
+    <linearGradient id="bar2" x1="0" x2="1"><stop offset="0" stop-color="#7AA2F7"/><stop offset="1" stop-color="#7AA2F7"/></linearGradient></defs>
   <style>
     text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
     .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', Menlo, monospace; }
@@ -14,40 +12,41 @@
     .fadeup { animation: up .8s ease-out both; }
     @keyframes up { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
     
+  .fadeup,.tag,.node,.arrow,.b1,.b2,.b3 { animation: none !important; }
   </style>
   
   <g clip-path="url(#card)">
-    <rect width="1200" height="330" fill="#13121F"/>
-    <circle cx="1100" cy="40" r="140" fill="#C084FC" opacity="0.35" filter="url(#blur)"/>
+    <rect width="1200" height="330" fill="#141A21"/>
+    
   </g>
-  <rect x="0.5" y="0.5" width="1199" height="329" rx="22" stroke="#2B2940"/>
-  <line x1="60" y1="40" x2="60" y2="290" stroke="#2B2940" stroke-width="2"/>
+  <rect x="0.5" y="0.5" width="1199" height="329" rx="22" stroke="#252D37"/>
+  <line x1="60" y1="40" x2="60" y2="290" stroke="#252D37" stroke-width="2"/>
   <line x1="60" y1="40" x2="60" y2="290" stroke="url(#g)" stroke-width="2" stroke-dasharray="40 300">
-    <animate attributeName="stroke-dashoffset" from="340" to="0" dur="3s" repeatCount="indefinite"/></line>
-  <circle cx="60" cy="72" r="9" fill="#0B0B14" stroke="#C084FC" stroke-width="3"/>
-  <circle cx="60" cy="72" r="9" fill="none" stroke="#C084FC" stroke-width="2">
-    <animate attributeName="r" values="9;20" dur="1.8s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;0" dur="1.8s" repeatCount="indefinite"/></circle>
+    </line>
+  <circle cx="60" cy="72" r="9" fill="#0F141A" stroke="#7AA2F7" stroke-width="3"/>
+  <circle cx="60" cy="72" r="9" fill="none" stroke="#7AA2F7" stroke-width="2">
+    
+    </circle>
   <g class="fadeup">
-    <rect x="100" y="44" width="150" height="26" rx="13" fill="#C084FC" fill-opacity="0.14" stroke="#C084FC" stroke-opacity="0.55"/>
-    <text x="175" y="61" font-size="11" font-weight="700" letter-spacing="1.2" fill="#C084FC" text-anchor="middle">RESEARCH INTERN</text>
-    <text class="mono" x="266" y="62" font-size="13" fill="#958FA9">May 2025 – Jul 2025  ·  MNIT Jaipur</text>
-    <text x="100" y="112" font-size="25" font-weight="800" fill="#F5F1EA">Multi-Gesture Recognition using sEMG</text>
-    <text x="100" y="136" font-size="14" fill="#958FA9">Spiking Neural Networks for stroke rehabilitation</text>
+    <rect x="100" y="44" width="150" height="26" rx="13" fill="#7AA2F7" fill-opacity="0.14" stroke="#7AA2F7" stroke-opacity="0.55"/>
+    <text x="175" y="61" font-size="11" font-weight="700" letter-spacing="1.2" fill="#7AA2F7" text-anchor="middle">RESEARCH INTERN</text>
+    <text class="mono" x="266" y="62" font-size="13" fill="#6E7A88">May 2025 – Jul 2025  ·  MNIT Jaipur</text>
+    <text x="100" y="112" font-size="25" font-weight="800" fill="#E6EDF3">Multi-Gesture Recognition using sEMG</text>
+    <text x="100" y="136" font-size="14" fill="#6E7A88">Spiking Neural Networks for stroke rehabilitation</text>
   </g>
-  <g class="fadeup" style="animation-delay:.25s"><circle cx="108" cy="163" r="3" fill="#FFB86B"/><text x="122" y="168" font-size="14.5" fill="#D3CCDB">Built a multi-gesture recognition system for stroke rehabilitation</text><text x="122" y="191" font-size="14.5" fill="#D3CCDB">from multi-channel sEMG signals using FFT spectral features.</text><circle cx="108" cy="217" r="3" fill="#FFB86B"/><text x="122" y="222" font-size="14.5" fill="#D3CCDB">Designed Leaky Integrate-and-Fire Spiking Neural Networks trained</text><text x="122" y="245" font-size="14.5" fill="#D3CCDB">with surrogate-gradient backprop in snnTorch.</text><circle cx="108" cy="271" r="3" fill="#FFB86B"/><text x="122" y="276" font-size="14.5" fill="#D3CCDB">Engineered a hybrid Feature-SNN model with automated evaluation.</text></g>
-  <line x1="750" y1="70" x2="750" y2="280" stroke="#2B2940"/>
-  <text class="mono" x="790" y="100" font-size="12" letter-spacing="2" fill="#958FA9">TEST ACCURACY</text>
+  <g class="fadeup" style="animation-delay:.25s"><circle cx="108" cy="163" r="3" fill="#7AA2F7"/><text x="122" y="168" font-size="14.5" fill="#AEB8C4">Built a multi-gesture recognition system for stroke rehabilitation</text><text x="122" y="191" font-size="14.5" fill="#AEB8C4">from multi-channel sEMG signals using FFT spectral features.</text><circle cx="108" cy="217" r="3" fill="#7AA2F7"/><text x="122" y="222" font-size="14.5" fill="#AEB8C4">Designed Leaky Integrate-and-Fire Spiking Neural Networks trained</text><text x="122" y="245" font-size="14.5" fill="#AEB8C4">with surrogate-gradient backprop in snnTorch.</text><circle cx="108" cy="271" r="3" fill="#7AA2F7"/><text x="122" y="276" font-size="14.5" fill="#AEB8C4">Engineered a hybrid Feature-SNN model with automated evaluation.</text></g>
+  <line x1="750" y1="70" x2="750" y2="280" stroke="#252D37"/>
+  <text class="mono" x="790" y="100" font-size="12" letter-spacing="2" fill="#6E7A88">TEST ACCURACY</text>
   
-  <text x="790" y="150" font-size="14" fill="#D3CCDB">LIF Spiking Neural Network</text>
-  <text class="mono" x="1150" y="150" font-size="16" font-weight="800" fill="#FFB86B" text-anchor="end">85%</text>
-  <rect x="790" y="164" width="360" height="12" rx="6" fill="#231F33"/>
+  <text x="790" y="150" font-size="14" fill="#AEB8C4">LIF Spiking Neural Network</text>
+  <text class="mono" x="1150" y="150" font-size="16" font-weight="800" fill="#7AA2F7" text-anchor="end">85%</text>
+  <rect x="790" y="164" width="360" height="12" rx="6" fill="#1C232C"/>
   <rect x="790" y="164" width="306.0" height="12" rx="6" fill="url(#bar1)">
     <animate attributeName="width" values="0;0;306.0" keyTimes="0;0.154;1" dur="2.6s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.22 1 0.36 1"/>
   </rect>
-  <text x="790" y="232" font-size="14" fill="#D3CCDB">Hybrid Feature-SNN</text>
-  <text class="mono" x="1150" y="232" font-size="16" font-weight="800" fill="#86EFAC" text-anchor="end">95.25%</text>
-  <rect x="790" y="246" width="360" height="12" rx="6" fill="#231F33"/>
+  <text x="790" y="232" font-size="14" fill="#AEB8C4">Hybrid Feature-SNN</text>
+  <text class="mono" x="1150" y="232" font-size="16" font-weight="800" fill="#7AA2F7" text-anchor="end">95.25%</text>
+  <rect x="790" y="246" width="360" height="12" rx="6" fill="#1C232C"/>
   <rect x="790" y="246" width="342.9" height="12" rx="6" fill="url(#bar2)">
     <animate attributeName="width" values="0;0;342.9" keyTimes="0;0.346;1" dur="2.6s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.22 1 0.36 1"/>
   </rect>

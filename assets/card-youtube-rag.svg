@@ -1,14 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="580" height="340" viewBox="0 0 580 340" fill="none">
   <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0" spreadMethod="repeat">
-      <stop offset="0" stop-color="#FFB86B"/><stop offset="0.33" stop-color="#FF6E7F"/>
-      <stop offset="0.66" stop-color="#C084FC"/><stop offset="1" stop-color="#FFB86B"/>
-      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1 0" dur="6s" repeatCount="indefinite"/>
+      <stop offset="0" stop-color="#7AA2F7"/><stop offset="1" stop-color="#7AA2F7"/>
     </linearGradient>
     <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <clipPath id="card"><rect width="580" height="340" rx="22"/></clipPath>
-    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFB86B"/><stop offset="1" stop-color="#C084FC"/></linearGradient></defs>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7AA2F7"/><stop offset="1" stop-color="#7AA2F7"/></linearGradient></defs>
   <style>
     text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
     .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', Menlo, monospace; }
@@ -21,23 +19,24 @@
     .fadeup { animation: up .8s ease-out both; }
     @keyframes up { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
     
+  .fadeup,.tag,.node,.arrow,.b1,.b2,.b3 { animation: none !important; }
   </style>
   
   <g clip-path="url(#card)">
-    <rect width="580" height="340" fill="#13121F"/>
-    <circle class="breathe" cx="540" cy="20" r="110" fill="#FFB86B" filter="url(#blur)"/>
-    <rect y="270" width="580" height="1" fill="#2B2940"/>
+    <rect width="580" height="340" fill="#141A21"/>
+    
+    <rect y="270" width="580" height="1" fill="#252D37"/>
   </g>
-  <rect x="1" y="1" width="578" height="338" rx="21" stroke="#2B2940" stroke-width="1.5"/>
-  <rect class="orbit" x="1" y="1" width="578" height="338" rx="21" stroke="url(#acc)" stroke-width="2.5" pathLength="100" filter="url(#glow)"/>
-  <rect x="28" y="26" width="48" height="48" rx="14" fill="#FFB86B" fill-opacity="0.14" stroke="#FFB86B" stroke-opacity="0.5"/>
-  <text class="mono" x="52" y="54" font-size="13" font-weight="800" fill="#FFB86B" text-anchor="middle">RAG</text>
-  <text x="92" y="48" font-size="20" font-weight="800" fill="#F5F1EA">YouTube Knowledge Intelligence</text>
-  <text x="92" y="70" font-size="13.5" fill="#958FA9">Retrieval-Augmented Generation</text>
-  <rect x="472" y="30" width="80" height="26" rx="13" fill="#FFB86B" fill-opacity="0.12" stroke="#FFB86B" stroke-opacity="0.55"/><circle cx="486" cy="43" r="3.5" fill="#FFB86B"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></circle><text x="520" y="47" font-size="11" font-weight="700" letter-spacing="1" fill="#FFB86B" text-anchor="middle">GENAI</text>
-  <text x="28" y="122" font-size="14.5" fill="#D3CCDB">Turns YouTube videos into a searchable knowledge base: Q&amp;A,</text><text x="28" y="145" font-size="14.5" fill="#D3CCDB">summaries, topic search, quizzes, multi-video comparison</text><text x="28" y="168" font-size="14.5" fill="#D3CCDB">and timestamp-backed citations.</text>
-  <text class="fadeup" style="animation-delay:.3s" x="28" y="232" font-size="34" font-weight="800" fill="url(#acc)" letter-spacing="-0.5">6</text><text class="fadeup" style="animation-delay:.45s" x="28" y="254" font-size="12.5" fill="#958FA9">user-facing capabilities</text><text class="fadeup" style="animation-delay:.3s" x="236.00000000000003" y="232" font-size="34" font-weight="800" fill="url(#acc)" letter-spacing="-0.5">Hybrid</text><text class="fadeup" style="animation-delay:.45s" x="236.00000000000003" y="254" font-size="12.5" fill="#958FA9">semantic + BM25 fused via RRF</text>
+  <rect x="1" y="1" width="578" height="338" rx="21" stroke="#252D37" stroke-width="1.5"/>
   
-  <g class="tag" style="animation-delay:0.40s"><rect x="28" y="288" width="63" height="26" rx="13.0" fill="#FFB86B" fill-opacity="0.12" stroke="#FFB86B" stroke-opacity="0.45"/><text x="59" y="305.1" font-size="11.5" font-weight="600" fill="#FFB86B" text-anchor="middle">Python</text></g><g class="tag" style="animation-delay:0.48s"><rect x="98.64" y="288" width="76" height="26" rx="13.0" fill="#C084FC" fill-opacity="0.12" stroke="#C084FC" stroke-opacity="0.45"/><text x="136" y="305.1" font-size="11.5" font-weight="600" fill="#C084FC" text-anchor="middle">ChromaDB</text></g><g class="tag" style="animation-delay:0.56s"><rect x="182.16000000000003" y="288" width="63" height="26" rx="13.0" fill="#FFB86B" fill-opacity="0.12" stroke="#FFB86B" stroke-opacity="0.45"/><text x="213" y="305.1" font-size="11.5" font-weight="600" fill="#FFB86B" text-anchor="middle">OpenAI</text></g><g class="tag" style="animation-delay:0.64s"><rect x="252.8" y="288" width="50" height="26" rx="13.0" fill="#C084FC" fill-opacity="0.12" stroke="#C084FC" stroke-opacity="0.45"/><text x="278" y="305.1" font-size="11.5" font-weight="600" fill="#C084FC" text-anchor="middle">BM25</text></g><g class="tag" style="animation-delay:0.72s"><rect x="310.56" y="288" width="159" height="26" rx="13.0" fill="#FFB86B" fill-opacity="0.12" stroke="#FFB86B" stroke-opacity="0.45"/><text x="390" y="305.1" font-size="11.5" font-weight="600" fill="#FFB86B" text-anchor="middle">Sentence-Transformers</text></g>
+  <rect x="28" y="26" width="48" height="48" rx="14" fill="#7AA2F7" fill-opacity="0.14" stroke="#7AA2F7" stroke-opacity="0.5"/>
+  <text class="mono" x="52" y="54" font-size="13" font-weight="800" fill="#7AA2F7" text-anchor="middle">RAG</text>
+  <text x="92" y="48" font-size="20" font-weight="800" fill="#E6EDF3">YouTube Knowledge Intelligence</text>
+  <text x="92" y="70" font-size="13.5" fill="#6E7A88">Retrieval-Augmented Generation</text>
+  <rect x="472" y="30" width="80" height="26" rx="13" fill="#7AA2F7" fill-opacity="0.12" stroke="#7AA2F7" stroke-opacity="0.55"/><circle cx="486" cy="43" r="3.5" fill="#7AA2F7"></circle><text x="520" y="47" font-size="11" font-weight="700" letter-spacing="1" fill="#7AA2F7" text-anchor="middle">GENAI</text>
+  <text x="28" y="122" font-size="14.5" fill="#AEB8C4">Turns YouTube videos into a searchable knowledge base: Q&amp;A,</text><text x="28" y="145" font-size="14.5" fill="#AEB8C4">summaries, topic search, quizzes, multi-video comparison</text><text x="28" y="168" font-size="14.5" fill="#AEB8C4">and timestamp-backed citations.</text>
+  <text class="fadeup" style="animation-delay:.3s" x="28" y="232" font-size="34" font-weight="800" fill="#E6EDF3" letter-spacing="-0.5">6</text><text class="fadeup" style="animation-delay:.45s" x="28" y="254" font-size="12.5" fill="#6E7A88">user-facing capabilities</text><text class="fadeup" style="animation-delay:.3s" x="236.00000000000003" y="232" font-size="34" font-weight="800" fill="#E6EDF3" letter-spacing="-0.5">Hybrid</text><text class="fadeup" style="animation-delay:.45s" x="236.00000000000003" y="254" font-size="12.5" fill="#6E7A88">semantic + BM25 fused via RRF</text>
+  
+  <g class="tag" style="animation-delay:0.40s"><rect x="28" y="288" width="63" height="26" rx="13.0" fill="#0F141A" stroke="#252D37"/><text x="59" y="305.1" font-size="11.5" font-weight="600" fill="#AEB8C4" text-anchor="middle">Python</text></g><g class="tag" style="animation-delay:0.48s"><rect x="98.64" y="288" width="76" height="26" rx="13.0" fill="#0F141A" stroke="#252D37"/><text x="136" y="305.1" font-size="11.5" font-weight="600" fill="#AEB8C4" text-anchor="middle">ChromaDB</text></g><g class="tag" style="animation-delay:0.56s"><rect x="182.16000000000003" y="288" width="63" height="26" rx="13.0" fill="#0F141A" stroke="#252D37"/><text x="213" y="305.1" font-size="11.5" font-weight="600" fill="#AEB8C4" text-anchor="middle">OpenAI</text></g><g class="tag" style="animation-delay:0.64s"><rect x="252.8" y="288" width="50" height="26" rx="13.0" fill="#0F141A" stroke="#252D37"/><text x="278" y="305.1" font-size="11.5" font-weight="600" fill="#AEB8C4" text-anchor="middle">BM25</text></g><g class="tag" style="animation-delay:0.72s"><rect x="310.56" y="288" width="159" height="26" rx="13.0" fill="#0F141A" stroke="#252D37"/><text x="390" y="305.1" font-size="11.5" font-weight="600" fill="#AEB8C4" text-anchor="middle">Sentence-Transformers</text></g>
 
 </svg>

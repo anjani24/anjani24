@@ -1,14 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="580" height="340" viewBox="0 0 580 340" fill="none">
   <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0" spreadMethod="repeat">
-      <stop offset="0" stop-color="#FFB86B"/><stop offset="0.33" stop-color="#FF6E7F"/>
-      <stop offset="0.66" stop-color="#C084FC"/><stop offset="1" stop-color="#FFB86B"/>
-      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1 0" dur="6s" repeatCount="indefinite"/>
+      <stop offset="0" stop-color="#7AA2F7"/><stop offset="1" stop-color="#7AA2F7"/>
     </linearGradient>
     <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <clipPath id="card"><rect width="580" height="340" rx="22"/></clipPath>
-    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C084FC"/><stop offset="1" stop-color="#FFB86B"/></linearGradient></defs>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7AA2F7"/><stop offset="1" stop-color="#7AA2F7"/></linearGradient></defs>
   <style>
     text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
     .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', Menlo, monospace; }
@@ -21,35 +19,35 @@
     .fadeup { animation: up .8s ease-out both; }
     @keyframes up { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
     
+  .fadeup,.tag,.node,.arrow,.b1,.b2,.b3 { animation: none !important; }
   </style>
   
   <g clip-path="url(#card)">
-    <rect width="580" height="340" fill="#13121F"/>
-    <circle class="breathe" cx="540" cy="20" r="110" fill="#C084FC" filter="url(#blur)"/>
-    <rect y="270" width="580" height="1" fill="#2B2940"/>
+    <rect width="580" height="340" fill="#141A21"/>
+    
+    <rect y="270" width="580" height="1" fill="#252D37"/>
   </g>
-  <rect x="1" y="1" width="578" height="338" rx="21" stroke="#2B2940" stroke-width="1.5"/>
-  <rect class="orbit" x="1" y="1" width="578" height="338" rx="21" stroke="url(#acc)" stroke-width="2.5" pathLength="100" filter="url(#glow)"/>
-  <rect x="28" y="26" width="48" height="48" rx="14" fill="#C084FC" fill-opacity="0.14" stroke="#C084FC" stroke-opacity="0.5"/>
-  <text class="mono" x="52" y="55" font-size="16" font-weight="800" fill="#C084FC" text-anchor="middle">AI</text>
-  <text x="92" y="48" font-size="20" font-weight="800" fill="#F5F1EA">AI Task Manager Backend</text>
-  <text x="92" y="70" font-size="13.5" fill="#958FA9">Secure task API · built for AI agents</text>
-  <rect x="424" y="30" width="128" height="26" rx="13" fill="#7DD3FC" fill-opacity="0.12" stroke="#7DD3FC" stroke-opacity="0.55"/><circle cx="438" cy="43" r="3.5" fill="#7DD3FC"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></circle><text x="496" y="47" font-size="11" font-weight="700" letter-spacing="1" fill="#7DD3FC" text-anchor="middle">IN PROGRESS</text>
-  <text x="28" y="122" font-size="14.5" fill="#D3CCDB">REST API with task CRUD, pagination &amp; sorting, user-level</text><text x="28" y="145" font-size="14.5" fill="#D3CCDB">task isolation, Alembic migrations and Pytest suites. Refresh-</text><text x="28" y="168" font-size="14.5" fill="#D3CCDB">token rotation with family-wide reuse detection.</text>
+  <rect x="1" y="1" width="578" height="338" rx="21" stroke="#252D37" stroke-width="1.5"/>
   
-  <text class="mono" x="28" y="196" font-size="11.5" fill="#958FA9" letter-spacing="1">TOKEN FAMILY · family_id=7f3a</text><g class="fadeup" style="animation-delay:0.30s"><rect x="28" y="211" width="92" height="34" rx="10" fill="#0B0B14" stroke="#C084FC" stroke-opacity="0.7"/><text class="mono" x="74" y="233" font-size="13" font-weight="700" fill="#C084FC" text-anchor="middle">RT #1</text></g><path d="M124 228 H144" stroke="#2B2940" stroke-width="2"/><circle r="3.5" fill="#FFB86B"><animateMotion path="M124,228 H144" dur="1.4s" begin="0.0s" repeatCount="indefinite"/></circle><path d="M138 223 L144 228 L138 233" stroke="#958FA9" stroke-width="2" fill="none"/><g class="fadeup" style="animation-delay:0.65s"><rect x="148" y="211" width="92" height="34" rx="10" fill="#0B0B14" stroke="#C084FC" stroke-opacity="0.7"/><text class="mono" x="194" y="233" font-size="13" font-weight="700" fill="#C084FC" text-anchor="middle">RT #2</text></g><path d="M244 228 H264" stroke="#2B2940" stroke-width="2"/><circle r="3.5" fill="#FFB86B"><animateMotion path="M244,228 H264" dur="1.4s" begin="0.7s" repeatCount="indefinite"/></circle><path d="M258 223 L264 228 L258 233" stroke="#958FA9" stroke-width="2" fill="none"/><g class="fadeup" style="animation-delay:1.00s"><rect x="268" y="211" width="92" height="34" rx="10" fill="#0B0B14" stroke="#86EFAC" stroke-opacity="0.7"/><text class="mono" x="314" y="233" font-size="13" font-weight="700" fill="#86EFAC" text-anchor="middle">RT #3</text></g>
+  <rect x="28" y="26" width="48" height="48" rx="14" fill="#7AA2F7" fill-opacity="0.14" stroke="#7AA2F7" stroke-opacity="0.5"/>
+  <text class="mono" x="52" y="55" font-size="16" font-weight="800" fill="#7AA2F7" text-anchor="middle">AI</text>
+  <text x="92" y="48" font-size="20" font-weight="800" fill="#E6EDF3">AI Task Manager Backend</text>
+  <text x="92" y="70" font-size="13.5" fill="#6E7A88">Secure task API · built for AI agents</text>
+  <rect x="424" y="30" width="128" height="26" rx="13" fill="#7AA2F7" fill-opacity="0.12" stroke="#7AA2F7" stroke-opacity="0.55"/><circle cx="438" cy="43" r="3.5" fill="#7AA2F7"></circle><text x="496" y="47" font-size="11" font-weight="700" letter-spacing="1" fill="#7AA2F7" text-anchor="middle">IN PROGRESS</text>
+  <text x="28" y="122" font-size="14.5" fill="#AEB8C4">REST API with task CRUD, pagination &amp; sorting, user-level</text><text x="28" y="145" font-size="14.5" fill="#AEB8C4">task isolation, Alembic migrations and Pytest suites. Refresh-</text><text x="28" y="168" font-size="14.5" fill="#AEB8C4">token rotation with family-wide reuse detection.</text>
+  
+  <text class="mono" x="28" y="196" font-size="11.5" fill="#6E7A88" letter-spacing="1">TOKEN FAMILY · family_id=7f3a</text><g class="fadeup" style="animation-delay:0.30s"><rect x="28" y="211" width="92" height="34" rx="10" fill="#0F141A" stroke="#7AA2F7" stroke-opacity="0.7"/><text class="mono" x="74" y="233" font-size="13" font-weight="700" fill="#7AA2F7" text-anchor="middle">RT #1</text></g><path d="M124 228 H144" stroke="#252D37" stroke-width="2"/><path d="M138 223 L144 228 L138 233" stroke="#6E7A88" stroke-width="2" fill="none"/><g class="fadeup" style="animation-delay:0.65s"><rect x="148" y="211" width="92" height="34" rx="10" fill="#0F141A" stroke="#7AA2F7" stroke-opacity="0.7"/><text class="mono" x="194" y="233" font-size="13" font-weight="700" fill="#7AA2F7" text-anchor="middle">RT #2</text></g><path d="M244 228 H264" stroke="#252D37" stroke-width="2"/><path d="M258 223 L264 228 L258 233" stroke="#6E7A88" stroke-width="2" fill="none"/><g class="fadeup" style="animation-delay:1.00s"><rect x="268" y="211" width="92" height="34" rx="10" fill="#0F141A" stroke="#7AA2F7" stroke-opacity="0.7"/><text class="mono" x="314" y="233" font-size="13" font-weight="700" fill="#7AA2F7" text-anchor="middle">RT #3</text></g>
   <g>
-    <line x1="34" y1="252" x2="104" y2="252" stroke="#958FA9" stroke-width="1"/>
-    <text class="mono" x="69" y="264" font-size="10" fill="#958FA9" text-anchor="middle">revoked</text>
-    <text class="mono" x="189" y="264" font-size="10" fill="#958FA9" text-anchor="middle">replaced_by_id</text>
+    <line x1="34" y1="252" x2="104" y2="252" stroke="#6E7A88" stroke-width="1"/>
+    <text class="mono" x="69" y="264" font-size="10" fill="#6E7A88" text-anchor="middle">revoked</text>
+    <text class="mono" x="189" y="264" font-size="10" fill="#6E7A88" text-anchor="middle">replaced_by_id</text>
   </g>
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.45;0.55;0.92;1" dur="5s" repeatCount="indefinite"/>
-    <rect x="402" y="209" width="150" height="38" rx="10" fill="#F87171" fill-opacity="0.12" stroke="#F87171"/>
-    <text class="mono" x="477" y="226" font-size="11" font-weight="700" fill="#F87171" text-anchor="middle">REUSE DETECTED</text>
-    <text class="mono" x="477" y="241" font-size="10" fill="#F87171" text-anchor="middle">revoke whole family</text>
-    <path d="M384 228 H396" stroke="#F87171" stroke-width="2"/>
+  <g>
+    <rect x="402" y="209" width="150" height="38" rx="10" fill="#E5737A" fill-opacity="0.12" stroke="#E5737A"/>
+    <text class="mono" x="477" y="226" font-size="11" font-weight="700" fill="#E5737A" text-anchor="middle">REUSE DETECTED</text>
+    <text class="mono" x="477" y="241" font-size="10" fill="#E5737A" text-anchor="middle">revoke whole family</text>
+    <path d="M384 228 H396" stroke="#E5737A" stroke-width="2"/>
   </g>
-  <g class="tag" style="animation-delay:0.40s"><rect x="28" y="288" width="69" height="26" rx="13.0" fill="#C084FC" fill-opacity="0.12" stroke="#C084FC" stroke-opacity="0.45"/><text x="63" y="305.1" font-size="11.5" font-weight="600" fill="#C084FC" text-anchor="middle">FastAPI</text></g><g class="tag" style="animation-delay:0.48s"><rect x="105.08000000000001" y="288" width="88" height="26" rx="13.0" fill="#FFB86B" fill-opacity="0.12" stroke="#FFB86B" stroke-opacity="0.45"/><text x="149" y="305.1" font-size="11.5" font-weight="600" fill="#FFB86B" text-anchor="middle">PostgreSQL</text></g><g class="tag" style="animation-delay:0.56s"><rect x="201.48000000000002" y="288" width="88" height="26" rx="13.0" fill="#C084FC" fill-opacity="0.12" stroke="#C084FC" stroke-opacity="0.45"/><text x="246" y="305.1" font-size="11.5" font-weight="600" fill="#C084FC" text-anchor="middle">SQLAlchemy</text></g><g class="tag" style="animation-delay:0.64s"><rect x="297.88" y="288" width="69" height="26" rx="13.0" fill="#FFB86B" fill-opacity="0.12" stroke="#FFB86B" stroke-opacity="0.45"/><text x="332" y="305.1" font-size="11.5" font-weight="600" fill="#FFB86B" text-anchor="middle">Alembic</text></g><g class="tag" style="animation-delay:0.72s"><rect x="374.96000000000004" y="288" width="43" height="26" rx="13.0" fill="#C084FC" fill-opacity="0.12" stroke="#C084FC" stroke-opacity="0.45"/><text x="397" y="305.1" font-size="11.5" font-weight="600" fill="#C084FC" text-anchor="middle">JWT</text></g><g class="tag" style="animation-delay:0.80s"><rect x="426.28000000000003" y="288" width="63" height="26" rx="13.0" fill="#FFB86B" fill-opacity="0.12" stroke="#FFB86B" stroke-opacity="0.45"/><text x="458" y="305.1" font-size="11.5" font-weight="600" fill="#FFB86B" text-anchor="middle">Argon2</text></g><g class="tag" style="animation-delay:0.88s"><rect x="496.92" y="288" width="63" height="26" rx="13.0" fill="#C084FC" fill-opacity="0.12" stroke="#C084FC" stroke-opacity="0.45"/><text x="528" y="305.1" font-size="11.5" font-weight="600" fill="#C084FC" text-anchor="middle">Pytest</text></g>
+  <g class="tag" style="animation-delay:0.40s"><rect x="28" y="288" width="69" height="26" rx="13.0" fill="#0F141A" stroke="#252D37"/><text x="63" y="305.1" font-size="11.5" font-weight="600" fill="#AEB8C4" text-anchor="middle">FastAPI</text></g><g class="tag" style="animation-delay:0.48s"><rect x="105.08000000000001" y="288" width="88" height="26" rx="13.0" fill="#0F141A" stroke="#252D37"/><text x="149" y="305.1" font-size="11.5" font-weight="600" fill="#AEB8C4" text-anchor="middle">PostgreSQL</text></g><g class="tag" style="animation-delay:0.56s"><rect x="201.48000000000002" y="288" width="88" height="26" rx="13.0" fill="#0F141A" stroke="#252D37"/><text x="246" y="305.1" font-size="11.5" font-weight="600" fill="#AEB8C4" text-anchor="middle">SQLAlchemy</text></g><g class="tag" style="animation-delay:0.64s"><rect x="297.88" y="288" width="69" height="26" rx="13.0" fill="#0F141A" stroke="#252D37"/><text x="332" y="305.1" font-size="11.5" font-weight="600" fill="#AEB8C4" text-anchor="middle">Alembic</text></g><g class="tag" style="animation-delay:0.72s"><rect x="374.96000000000004" y="288" width="43" height="26" rx="13.0" fill="#0F141A" stroke="#252D37"/><text x="397" y="305.1" font-size="11.5" font-weight="600" fill="#AEB8C4" text-anchor="middle">JWT</text></g><g class="tag" style="animation-delay:0.80s"><rect x="426.28000000000003" y="288" width="63" height="26" rx="13.0" fill="#0F141A" stroke="#252D37"/><text x="458" y="305.1" font-size="11.5" font-weight="600" fill="#AEB8C4" text-anchor="middle">Argon2</text></g><g class="tag" style="animation-delay:0.88s"><rect x="496.92" y="288" width="63" height="26" rx="13.0" fill="#0F141A" stroke="#252D37"/><text x="528" y="305.1" font-size="11.5" font-weight="600" fill="#AEB8C4" text-anchor="middle">Pytest</text></g>
 
 </svg>

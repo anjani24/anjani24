@@ -3,12 +3,12 @@
 </a>
 
 <p align="center">
-  <a href="mailto:aagarwal2_be23@thapar.edu"><img src="https://img.shields.io/badge/Email-aagarwal2__be23%40thapar.edu-FF6E7F?style=for-the-badge&logo=gmail&logoColor=white&labelColor=13121F" alt="Email"/></a>
-  <a href="https://github.com/anjani24"><img src="https://img.shields.io/badge/GitHub-anjani24-FFB86B?style=for-the-badge&logo=github&logoColor=white&labelColor=13121F" alt="GitHub"/></a>
+  <a href="mailto:aagarwal2_be23@thapar.edu"><img src="https://img.shields.io/badge/Email-aagarwal2__be23%40thapar.edu-1C232C?style=for-the-badge&logo=gmail&logoColor=7AA2F7&labelColor=141A21" alt="Email"/></a>
+  <a href="https://github.com/anjani24"><img src="https://img.shields.io/badge/GitHub-anjani24-1C232C?style=for-the-badge&logo=github&logoColor=7AA2F7&labelColor=141A21" alt="GitHub"/></a>
   <!-- Add LinkedIn: replace YOUR-HANDLE and remove these comment markers
-  <a href="https://www.linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-Connect-7DD3FC?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=13121F" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-Connect-1C232C?style=for-the-badge&logo=linkedin&logoColor=7AA2F7&labelColor=141A21" alt="LinkedIn"/></a>
   -->
-  <img src="https://komarev.com/ghpvc/?username=anjani24&style=for-the-badge&color=C084FC&label=PROFILE+VIEWS" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=anjani24&style=for-the-badge&color=1C232C&label=PROFILE+VIEWS" alt="Profile views"/>
 </p>
 
 <br/>
@@ -78,8 +78,8 @@
 <img src="./assets/h-stats.svg" width="100%" alt="06 GitHub Activity"/>
 
 <p align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=anjani24&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=13121F&title_color=FFB86B&icon_color=FF6E7F&text_color=D3CCDB&ring_color=C084FC&border_color=2B2940&border_radius=20" alt="GitHub stats"/>
-  <img height="175" src="https://streak-stats.demolab.com?user=anjani24&background=13121F&border=2B2940&stroke=2B2940&ring=FF6E7F&fire=FFB86B&currStreakNum=F5F1EA&sideNums=F5F1EA&currStreakLabel=FFB86B&sideLabels=958FA9&dates=958FA9&border_radius=20" alt="GitHub streak"/>
+  <img height="175" src="https://github-readme-stats.vercel.app/api?username=anjani24&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=141A21&title_color=E6EDF3&icon_color=7AA2F7&text_color=AEB8C4&ring_color=7AA2F7&border_color=252D37&border_radius=20" alt="GitHub stats"/>
+  <img height="175" src="https://streak-stats.demolab.com?user=anjani24&background=141A21&border=252D37&stroke=252D37&ring=7AA2F7&fire=7AA2F7&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=7AA2F7&sideLabels=6E7A88&dates=6E7A88&border_radius=20" alt="GitHub streak"/>
 </p>
 
 <!-- Contribution snake: appears after the "Generate snake" workflow runs once (Actions tab → Generate snake → Run workflow) -->
