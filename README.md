@@ -74,8 +74,17 @@
 <img src="./assets/h-stats.svg" width="100%" alt="06 GitHub Activity"/>
 
 <p align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=anjani24&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=141A21&title_color=E6EDF3&icon_color=8B949E&text_color=AEB8C4&ring_color=8B949E&border_color=252D37&border_radius=20" alt="GitHub stats"/>
-  <img height="175" src="https://streak-stats.demolab.com?user=anjani24&background=141A21&border=252D37&stroke=252D37&ring=8B949E&fire=8B949E&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=AEB8C4&sideLabels=6E7A88&dates=6E7A88&border_radius=20" alt="GitHub streak"/>
+  <img height="175" src="https://github-readme-stats.vercel.app/api?username=anjani24&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=141A21&title_color=E6EDF3&icon_color=8B949E&text_color=AEB8C4&ring_color=7AA2F7&border_color=252D37&border_radius=20" alt="GitHub stats"/>
+  <img height="175" src="https://streak-stats.demolab.com?user=anjani24&background=141A21&border=252D37&stroke=252D37&ring=7AA2F7&fire=8B949E&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=AEB8C4&sideLabels=6E7A88&dates=6E7A88&border_radius=20" alt="GitHub streak"/>
+</p>
+
+<!-- Contribution snake: appears after the "Generate snake" workflow runs once (Actions tab → Generate snake → Run workflow) -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anjani24/anjani24/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anjani24/anjani24/output/github-snake.svg"/>
+    <img width="100%" alt="Contribution snake animation" src="https://raw.githubusercontent.com/anjani24/anjani24/output/github-snake.svg"/>
+  </picture>
 </p>
 
 <br/>

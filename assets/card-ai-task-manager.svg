@@ -19,7 +19,7 @@
     .fadeup { animation: up .8s ease-out both; }
     @keyframes up { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
     
-  * { animation: none !important; }
+  .fadeup,.tag,.node,.arrow,.b1,.b2,.b3 { animation: none !important; }
   </style>
   
   <g clip-path="url(#card)">
@@ -33,7 +33,7 @@
   <text class="mono" x="52" y="55" font-size="16" font-weight="800" fill="#C9D1D9" text-anchor="middle">AI</text>
   <text x="92" y="48" font-size="20" font-weight="800" fill="#E6EDF3">AI Task Manager Backend</text>
   <text x="92" y="70" font-size="13.5" fill="#6E7A88">Secure task API · built for AI agents</text>
-  <rect x="424" y="30" width="128" height="26" rx="13" fill="#C9D1D9" fill-opacity="0.12" stroke="#C9D1D9" stroke-opacity="0.55"/><circle cx="438" cy="43" r="3.5" fill="#C9D1D9"></circle><text x="496" y="47" font-size="11" font-weight="700" letter-spacing="1" fill="#C9D1D9" text-anchor="middle">IN PROGRESS</text>
+  <rect x="424" y="30" width="128" height="26" rx="13" fill="#7AA2F7" fill-opacity="0.12" stroke="#7AA2F7" stroke-opacity="0.55"/><circle cx="438" cy="43" r="3.5" fill="#7AA2F7"></circle><text x="496" y="47" font-size="11" font-weight="700" letter-spacing="1" fill="#7AA2F7" text-anchor="middle">IN PROGRESS</text>
   <text x="28" y="122" font-size="14.5" fill="#AEB8C4">REST API with task CRUD, pagination &amp; sorting, user-level</text><text x="28" y="145" font-size="14.5" fill="#AEB8C4">task isolation, Alembic migrations and Pytest suites. Refresh-</text><text x="28" y="168" font-size="14.5" fill="#AEB8C4">token rotation with family-wide reuse detection.</text>
   
   <text class="mono" x="28" y="196" font-size="11.5" fill="#6E7A88" letter-spacing="1">TOKEN FAMILY · family_id=7f3a</text><g class="fadeup" style="animation-delay:0.30s"><rect x="28" y="211" width="92" height="34" rx="10" fill="#0F141A" stroke="#C9D1D9" stroke-opacity="0.7"/><text class="mono" x="74" y="233" font-size="13" font-weight="700" fill="#C9D1D9" text-anchor="middle">RT #1</text></g><path d="M124 228 H144" stroke="#252D37" stroke-width="2"/><path d="M138 223 L144 228 L138 233" stroke="#6E7A88" stroke-width="2" fill="none"/><g class="fadeup" style="animation-delay:0.65s"><rect x="148" y="211" width="92" height="34" rx="10" fill="#0F141A" stroke="#C9D1D9" stroke-opacity="0.7"/><text class="mono" x="194" y="233" font-size="13" font-weight="700" fill="#C9D1D9" text-anchor="middle">RT #2</text></g><path d="M244 228 H264" stroke="#252D37" stroke-width="2"/><path d="M258 223 L264 228 L258 233" stroke="#6E7A88" stroke-width="2" fill="none"/><g class="fadeup" style="animation-delay:1.00s"><rect x="268" y="211" width="92" height="34" rx="10" fill="#0F141A" stroke="#C9D1D9" stroke-opacity="0.7"/><text class="mono" x="314" y="233" font-size="13" font-weight="700" fill="#C9D1D9" text-anchor="middle">RT #3</text></g>

@@ -11,7 +11,7 @@
     .shine { animation: shine 4.5s ease-in-out infinite; }
     @keyframes shine { 0% { transform: translateX(0) rotate(18deg); } 40%,100% { transform: translateX(520px) rotate(18deg); } }
     
-  * { animation: none !important; }
+  .fadeup,.tag,.node,.arrow,.b1,.b2,.b3 { animation: none !important; }
   </style>
   
   <g class="fadeup" style="animation-delay:0.00s">

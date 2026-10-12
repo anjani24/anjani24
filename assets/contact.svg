@@ -13,7 +13,7 @@
     .arrow { animation: nudge 1.4s ease-in-out infinite; }
     @keyframes nudge { 50% { transform: translateX(8px); } }
     
-  * { animation: none !important; }
+  .fadeup,.tag,.node,.arrow,.b1,.b2,.b3 { animation: none !important; }
   </style>
   
   <g clip-path="url(#card)">

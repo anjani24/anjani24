@@ -3,8 +3,8 @@
       <stop offset="0" stop-color="#C9D1D9"/><stop offset="1" stop-color="#C9D1D9"/>
     </linearGradient><clipPath id="card"><rect width="1200" height="330" rx="22"/></clipPath>
     <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="50"/></filter>
-    <linearGradient id="bar1" x1="0" x2="1"><stop offset="0" stop-color="#C9D1D9"/><stop offset="1" stop-color="#C9D1D9"/></linearGradient>
-    <linearGradient id="bar2" x1="0" x2="1"><stop offset="0" stop-color="#C9D1D9"/><stop offset="1" stop-color="#C9D1D9"/></linearGradient></defs>
+    <linearGradient id="bar1" x1="0" x2="1"><stop offset="0" stop-color="#7AA2F7"/><stop offset="1" stop-color="#7AA2F7"/></linearGradient>
+    <linearGradient id="bar2" x1="0" x2="1"><stop offset="0" stop-color="#7AA2F7"/><stop offset="1" stop-color="#7AA2F7"/></linearGradient></defs>
   <style>
     text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
     .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', Menlo, monospace; }
@@ -12,7 +12,7 @@
     .fadeup { animation: up .8s ease-out both; }
     @keyframes up { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
     
-  * { animation: none !important; }
+  .fadeup,.tag,.node,.arrow,.b1,.b2,.b3 { animation: none !important; }
   </style>
   
   <g clip-path="url(#card)">
@@ -39,16 +39,16 @@
   <text class="mono" x="790" y="100" font-size="12" letter-spacing="2" fill="#6E7A88">TEST ACCURACY</text>
   
   <text x="790" y="150" font-size="14" fill="#AEB8C4">LIF Spiking Neural Network</text>
-  <text class="mono" x="1150" y="150" font-size="16" font-weight="800" fill="#C9D1D9" text-anchor="end">85%</text>
+  <text class="mono" x="1150" y="150" font-size="16" font-weight="800" fill="#7AA2F7" text-anchor="end">85%</text>
   <rect x="790" y="164" width="360" height="12" rx="6" fill="#1C232C"/>
   <rect x="790" y="164" width="306.0" height="12" rx="6" fill="url(#bar1)">
-    
+    <animate attributeName="width" values="0;0;306.0" keyTimes="0;0.154;1" dur="2.6s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.22 1 0.36 1"/>
   </rect>
   <text x="790" y="232" font-size="14" fill="#AEB8C4">Hybrid Feature-SNN</text>
-  <text class="mono" x="1150" y="232" font-size="16" font-weight="800" fill="#C9D1D9" text-anchor="end">95.25%</text>
+  <text class="mono" x="1150" y="232" font-size="16" font-weight="800" fill="#7AA2F7" text-anchor="end">95.25%</text>
   <rect x="790" y="246" width="360" height="12" rx="6" fill="#1C232C"/>
   <rect x="790" y="246" width="342.9" height="12" rx="6" fill="url(#bar2)">
-    
+    <animate attributeName="width" values="0;0;342.9" keyTimes="0;0.346;1" dur="2.6s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.22 1 0.36 1"/>
   </rect>
 
 </svg>
