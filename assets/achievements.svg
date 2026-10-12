@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" fill="none">
   <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0" spreadMethod="repeat">
-      <stop offset="0" stop-color="#7AA2F7"/><stop offset="1" stop-color="#7AA2F7"/>
-    </linearGradient><filter id="sb" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="28"/></filter><clipPath id="t0"><rect x="0.0" y="0" width="286.5" height="200" rx="20"/></clipPath><linearGradient id="a0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7AA2F7"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.85"/></linearGradient><clipPath id="t1"><rect x="304.5" y="0" width="286.5" height="200" rx="20"/></clipPath><linearGradient id="a1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7AA2F7"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.85"/></linearGradient><clipPath id="t2"><rect x="609.0" y="0" width="286.5" height="200" rx="20"/></clipPath><linearGradient id="a2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7AA2F7"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.85"/></linearGradient><clipPath id="t3"><rect x="913.5" y="0" width="286.5" height="200" rx="20"/></clipPath><linearGradient id="a3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7AA2F7"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.85"/></linearGradient></defs>
+      <stop offset="0" stop-color="#C9D1D9"/><stop offset="1" stop-color="#C9D1D9"/>
+    </linearGradient><filter id="sb" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="28"/></filter><clipPath id="t0"><rect x="0.0" y="0" width="286.5" height="200" rx="20"/></clipPath><linearGradient id="a0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C9D1D9"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.85"/></linearGradient><clipPath id="t1"><rect x="304.5" y="0" width="286.5" height="200" rx="20"/></clipPath><linearGradient id="a1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C9D1D9"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.85"/></linearGradient><clipPath id="t2"><rect x="609.0" y="0" width="286.5" height="200" rx="20"/></clipPath><linearGradient id="a2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C9D1D9"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.85"/></linearGradient><clipPath id="t3"><rect x="913.5" y="0" width="286.5" height="200" rx="20"/></clipPath><linearGradient id="a3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C9D1D9"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.85"/></linearGradient></defs>
   <style>
     text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
     .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', Menlo, monospace; }
@@ -11,7 +11,7 @@
     .shine { animation: shine 4.5s ease-in-out infinite; }
     @keyframes shine { 0% { transform: translateX(0) rotate(18deg); } 40%,100% { transform: translateX(520px) rotate(18deg); } }
     
-  .fadeup,.tag,.node,.arrow,.b1,.b2,.b3 { animation: none !important; }
+  * { animation: none !important; }
   </style>
   
   <g class="fadeup" style="animation-delay:0.00s">
@@ -21,7 +21,7 @@
       
     </g>
     <rect x="0.5" y="0.5" width="285.5" height="199" rx="20" stroke="#252D37"/>
-    <rect x="24.0" y="26" width="34" height="4" rx="2" fill="#7AA2F7"/>
+    <rect x="24.0" y="26" width="34" height="4" rx="2" fill="#C9D1D9"/>
     <text x="24.0" y="98" font-size="44" font-weight="800" fill="#E6EDF3" letter-spacing="-1">Runner-up</text>
     <text x="24.0" y="138" font-size="17" font-weight="700" fill="#E6EDF3">HackOWASP Hackathon</text>
     <text x="24.0" y="164" font-size="13.5" fill="#6E7A88">Among 100+ teams · Apr 2025</text>
@@ -33,7 +33,7 @@
       
     </g>
     <rect x="305.0" y="0.5" width="285.5" height="199" rx="20" stroke="#252D37"/>
-    <rect x="328.5" y="26" width="34" height="4" rx="2" fill="#7AA2F7"/>
+    <rect x="328.5" y="26" width="34" height="4" rx="2" fill="#C9D1D9"/>
     <text x="328.5" y="98" font-size="44" font-weight="800" fill="#E6EDF3" letter-spacing="-1">Top 30</text>
     <text x="328.5" y="138" font-size="17" font-weight="700" fill="#E6EDF3">Amex Campus Challenge</text>
     <text x="328.5" y="164" font-size="13.5" fill="#6E7A88">Nationwide · Jul 2025</text>
@@ -45,7 +45,7 @@
       
     </g>
     <rect x="609.5" y="0.5" width="285.5" height="199" rx="20" stroke="#252D37"/>
-    <rect x="633.0" y="26" width="34" height="4" rx="2" fill="#7AA2F7"/>
+    <rect x="633.0" y="26" width="34" height="4" rx="2" fill="#C9D1D9"/>
     <text x="633.0" y="98" font-size="44" font-weight="800" fill="#E6EDF3" letter-spacing="-1">Patent</text>
     <text x="633.0" y="138" font-size="17" font-weight="700" fill="#E6EDF3">Published in India</text>
     <text x="633.0" y="164" font-size="13.5" fill="#6E7A88">Speech-aware voting system</text>
@@ -57,7 +57,7 @@
       
     </g>
     <rect x="914.0" y="0.5" width="285.5" height="199" rx="20" stroke="#252D37"/>
-    <rect x="937.5" y="26" width="34" height="4" rx="2" fill="#7AA2F7"/>
+    <rect x="937.5" y="26" width="34" height="4" rx="2" fill="#C9D1D9"/>
     <text x="937.5" y="98" font-size="44" font-weight="800" fill="#E6EDF3" letter-spacing="-1">8.79</text>
     <text x="937.5" y="138" font-size="17" font-weight="700" fill="#E6EDF3">CGPA</text>
     <text x="937.5" y="164" font-size="13.5" fill="#6E7A88">Thapar Institute</text>

@@ -3,10 +3,10 @@
 </a>
 
 <p align="center">
-  <a href="mailto:aagarwal2_be23@thapar.edu"><img src="https://img.shields.io/badge/Email-aagarwal2__be23%40thapar.edu-1C232C?style=for-the-badge&logo=gmail&logoColor=7AA2F7&labelColor=141A21" alt="Email"/></a>
-  <a href="https://github.com/anjani24"><img src="https://img.shields.io/badge/GitHub-anjani24-1C232C?style=for-the-badge&logo=github&logoColor=7AA2F7&labelColor=141A21" alt="GitHub"/></a>
+  <a href="mailto:aagarwal2_be23@thapar.edu"><img src="https://img.shields.io/badge/Email-aagarwal2__be23%40thapar.edu-1C232C?style=for-the-badge&logo=gmail&logoColor=C9D1D9&labelColor=141A21" alt="Email"/></a>
+  <a href="https://github.com/anjani24"><img src="https://img.shields.io/badge/GitHub-anjani24-1C232C?style=for-the-badge&logo=github&logoColor=C9D1D9&labelColor=141A21" alt="GitHub"/></a>
   <!-- Add LinkedIn: replace YOUR-HANDLE and remove these comment markers
-  <a href="https://www.linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-Connect-1C232C?style=for-the-badge&logo=linkedin&logoColor=7AA2F7&labelColor=141A21" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-Connect-1C232C?style=for-the-badge&logo=linkedin&logoColor=C9D1D9&labelColor=141A21" alt="LinkedIn"/></a>
   -->
   <img src="https://komarev.com/ghpvc/?username=anjani24&style=for-the-badge&color=1C232C&label=PROFILE+VIEWS" alt="Profile views"/>
 </p>
@@ -61,10 +61,6 @@
 
 <img src="./assets/h-stack.svg" width="100%" alt="04 Tech Stack"/>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,fastapi,postgres,react,nextjs,ts,supabase,docker,aws,githubactions,git,vercel&perline=14" alt="Tech logos"/>
-</p>
-
 <img src="./assets/stack.svg" width="100%" alt="GenAI and ML: PyTorch, snnTorch, scikit-learn, LightGBM, SHAP, Hugging Face, Wav2Vec2, OpenAI, ChromaDB, Sentence-Transformers, RAG. Backend: FastAPI, SQLAlchemy, Alembic, PostgreSQL, JWT, Argon2, Pytest. Web and DevOps: React, Next.js, TypeScript, Supabase, Docker, AWS, GitHub Actions, Vercel."/>
 
 <br/><br/>
@@ -78,17 +74,8 @@
 <img src="./assets/h-stats.svg" width="100%" alt="06 GitHub Activity"/>
 
 <p align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=anjani24&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=141A21&title_color=E6EDF3&icon_color=7AA2F7&text_color=AEB8C4&ring_color=7AA2F7&border_color=252D37&border_radius=20" alt="GitHub stats"/>
-  <img height="175" src="https://streak-stats.demolab.com?user=anjani24&background=141A21&border=252D37&stroke=252D37&ring=7AA2F7&fire=7AA2F7&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=7AA2F7&sideLabels=6E7A88&dates=6E7A88&border_radius=20" alt="GitHub streak"/>
-</p>
-
-<!-- Contribution snake: appears after the "Generate snake" workflow runs once (Actions tab → Generate snake → Run workflow) -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anjani24/anjani24/output/github-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anjani24/anjani24/output/github-snake.svg"/>
-    <img width="100%" alt="Contribution snake animation" src="https://raw.githubusercontent.com/anjani24/anjani24/output/github-snake.svg"/>
-  </picture>
+  <img height="175" src="https://github-readme-stats.vercel.app/api?username=anjani24&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=141A21&title_color=E6EDF3&icon_color=8B949E&text_color=AEB8C4&ring_color=8B949E&border_color=252D37&border_radius=20" alt="GitHub stats"/>
+  <img height="175" src="https://streak-stats.demolab.com?user=anjani24&background=141A21&border=252D37&stroke=252D37&ring=8B949E&fire=8B949E&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=AEB8C4&sideLabels=6E7A88&dates=6E7A88&border_radius=20" alt="GitHub streak"/>
 </p>
 
 <br/>
